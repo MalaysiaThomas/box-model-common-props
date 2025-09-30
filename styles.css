@@ -341,7 +341,7 @@ footer{
     font-size: 1.1rem;
     font-weight: bold;
     width: 50%;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.9);
+    box-shadow: var(--box-shadow-lg);
 }
 
 /* For the first link in this section: */
@@ -406,6 +406,10 @@ footer{
         - add the small box shadow, using the variable in the root
 */
 #section2 a:first-of-type:hover{
+    background-color: var(--dk-blue);
+    color: white;
+    border: var(--lt-blue);
+    box-shadow: var(--box-shadow-sm);
 
 }
 
